@@ -8,60 +8,66 @@ namespace Generic_Collections
         static void Main(string[] args)
         {
 
-            string name;
-            string surname;
-            byte age;
-            byte point;
+            //string name;
+            //string surname;
+            //byte age;
+            //byte point;
 
-            Console.Write("Please enter student name: ");
-            name = Console.ReadLine();
+            //Console.Write("Please enter student name: ");
+            //name = Console.ReadLine();
 
-            Console.Write("Please enter student surname: ");
-            surname = Console.ReadLine();
+            //Console.Write("Please enter student surname: ");
+            //surname = Console.ReadLine();
 
-            Console.Write("Please enter student age: ");
-            age = Convert.ToByte(Console.ReadLine());
+            //Console.Write("Please enter student age: ");
+            //age = Convert.ToByte(Console.ReadLine());
 
-            Console.Write("Please enter student point: ");
-            point = Convert.ToByte(Console.ReadLine());
+            //Console.Write("Please enter student point: ");
+            //point = Convert.ToByte(Console.ReadLine());
 
-            Student stu1 = new Student(name, surname, age, point);
-            stu1.ShowInfo();
-
-
-
-            Console.Write("Please enter student name: ");
-            name = Console.ReadLine();
-
-            Console.Write("Please enter student surname: ");
-            surname = Console.ReadLine();
-
-            Console.Write("Please enter student age: ");
-            age = Convert.ToByte(Console.ReadLine());
-
-            Console.Write("Please enter student point: ");
-            point = Convert.ToByte(Console.ReadLine());
-
-            Student stu2 = new Student(name, surname, age, point);
-            stu2.ShowInfo();
-
-            Console.WriteLine(stu1.Point > stu2.Point);
+            //Student stu1 = new Student(name, surname, age, point);
+            //stu1.ShowInfo();
 
 
-            Console.WriteLine("Task 1.2 Group Class");
+
+            //Console.Write("Please enter student name: ");
+            //name = Console.ReadLine();
+
+            //Console.Write("Please enter student surname: ");
+            //surname = Console.ReadLine();
+
+            //Console.Write("Please enter student age: ");
+            //age = Convert.ToByte(Console.ReadLine());
+
+            //Console.Write("Please enter student point: ");
+            //point = Convert.ToByte(Console.ReadLine());
+
+            //Student stu2 = new Student(name, surname, age, point);
+            //stu2.ShowInfo();
+
+            //Console.WriteLine(stu1.Point > stu2.Point);
+
+
+            //Console.WriteLine("Task 1.2 Group Class");
+
 
             
-            
-            
-            
-            
-            
-            
-          
+
+            Group gr = new Group();
+            gr.Show();
+
+            Group gr1 = new Group();
+            gr.Show();
 
 
 
 
+
+
+
+
+
+            
 
 
 
