@@ -42,7 +42,8 @@ namespace Generic_Collections.Models
                               $"Name: {Name}\n" +
                               $"Surname: {SurName}\n" +
                               $"Age: {Age}\n" +
-                              $"Point: {Point}");
+                              $"Point: {Point}\n" +
+                              $"");
         }
 
 
